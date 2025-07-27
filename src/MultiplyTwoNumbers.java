@@ -1,7 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 public class MultiplyTwoNumbers {
     public static void main(String[] args){
@@ -48,20 +46,17 @@ public class MultiplyTwoNumbers {
         frame.add(result);
         result.setEditable(false);
 
-        multiplyButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                try {
+        multiplyButton.addActionListener(e -> {
+            try {
 
 
-                    double num1 = Double.parseDouble(text1.getText());
-                    double num2 = Double.parseDouble(text2.getText());
-                    double product = num1 * num2;
-                    result.setText(String.valueOf(product));
-                }catch (NumberFormatException ex){
-                    JOptionPane.showMessageDialog(frame,"Incorrect number format");
-                }
+                double num1 = Double.parseDouble(text1.getText());
+                double num2 = Double.parseDouble(text2.getText());
+                double product = num1 * num2;
+                result.setText(String.valueOf(product));
+            }catch (NumberFormatException ex){
+                JOptionPane.showMessageDialog(frame,"Incorrect number format");
             }
-
         });
 
         frame.setVisible(true);

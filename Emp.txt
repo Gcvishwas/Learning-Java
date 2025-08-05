@@ -1,0 +1,5 @@
+ID: 1
+Name: Vishwas Gharti Chhetri
+Address: USA
+DOB: 2003-08-21
+Phone: 72779528

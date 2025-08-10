@@ -60,8 +60,8 @@ for (int num : numbers) {
 ## 🔄 Updating Array Elements
 
 ```java
-int[] numbers = {10, 20, 30, 40, 50}; // Set first element to 99
-numebrs[2]=70                         // Changes 40 to 70
+int[] numbers = {10, 20, 30, 40, 50};
+numebrs[3]=70                         // Changes 40 to 70
 ```
 
 ---

@@ -62,7 +62,7 @@ public class InputExample {
 ---
 
 ## 📘 Notes
-- Always call `input.nextLine()` **after** reading numeric input (`nextInt()` or `nextDouble()`) to consume the leftover newline.
+- Always call `scanner.nextLine()` **after** reading numeric input (`nextInt()` or `nextDouble()`) to consume the leftover newline.
 - Don’t forget to **close** your `Scanner` object using `scanner.close();` when done (especially in larger applications).
 
 ---

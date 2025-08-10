@@ -47,6 +47,8 @@ for (int i = 0; i < numbers.length; i++) {
 ```
 
 ### Using enhanced for loop (for-each):
+#Syntax
+`for(type variable:arrayName)`
 ```java
 for (int num : numbers) {
     System.out.println(num);

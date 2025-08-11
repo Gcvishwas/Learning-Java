@@ -68,3 +68,8 @@ public class Rectangle {
 3. **Declare the package** at the top of each class file:
    ```java
    package Area;
+   ```
+4. **Use import statements** to use it in desired folder:
+   ```java
+   import PackageName.Function
+   

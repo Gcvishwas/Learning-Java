@@ -1,14 +1,17 @@
+package Advanced_Java;
+
 import javax.swing.*;
 
-import  java.awt.BorderLayout;
-public class BorderLayoutDemo {
-    public static void main(String [] args){
+import java.awt.BorderLayout;
 
-//        Create Frame
-        JFrame frame= new JFrame("Vishwas GC Border");
-    frame.setSize(300,200);
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setLayout(new BorderLayout());
+public class BorderLayoutDemo {
+    public static void main(String[] args) {
+
+        // Create Frame
+        JFrame frame = new JFrame("Vishwas GC Border");
+        frame.setSize(300, 200);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLayout(new BorderLayout());
 
         frame.add(new JButton("North"), BorderLayout.NORTH);
         frame.add(new JButton("South"), BorderLayout.SOUTH);

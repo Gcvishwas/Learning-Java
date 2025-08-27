@@ -1,3 +1,5 @@
+package Advanced_Java;
+
 import javax.swing.*;
 
 public class MultiplyTwoNumbers {
